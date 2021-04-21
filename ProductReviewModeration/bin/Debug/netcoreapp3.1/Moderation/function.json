@@ -1,0 +1,15 @@
+{
+  "generatedBy": "Microsoft.NET.Sdk.Functions-3.0.3",
+  "configurationSource": "attributes",
+  "bindings": [
+    {
+      "type": "blobTrigger",
+      "connection": "AzureWebJobsStorage",
+      "path": "productreviewimages/{name}",
+      "name": "myBlob"
+    }
+  ],
+  "disabled": false,
+  "scriptFile": "../bin/ProductReviewModeration.dll",
+  "entryPoint": "ProductReviewModeration.ProductReviewModeration.Run"
+}

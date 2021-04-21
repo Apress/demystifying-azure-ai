@@ -1,0 +1,5 @@
+{
+  "extensions":[
+    { "name": "Startup", "typeName":"az_blur_faces_af01.Startup, az-blur-faces-af01, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"}
+  ]
+}

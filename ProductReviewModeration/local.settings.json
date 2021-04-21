@@ -1,0 +1,9 @@
+{
+    "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol....",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "Moderator_API_Subscription_Key": "Cognitive Service Key",
+    "Moderator_API_Endpoint": "https://product-moderator.cognitiveservices.azure.com/contentmoderator/moderate/v1.0/ProcessImage/Evaluate"
+  }
+}

@@ -1,0 +1,17 @@
+{
+    "Url" : "{{content.Url}}",
+    "FaceRectangles":[
+        {% for faces in content.DetectedFaces %}
+        {
+            "Top": {{faces.faceRectangle.top}},
+            "Left": {{faces.faceRectangle.left}},
+            "Width": {{faces.faceRectangle.width}},
+            "Height": {{faces.faceRectangle.height}}
+
+        },
+        {% endfor %}
+
+    ]
+    
+
+}
